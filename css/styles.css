@@ -1,0 +1,41 @@
+/* body {
+  font-family: sans-serif;
+  padding: 2rem;
+  background-color: #ffff;
+  
+} */
+ * {box-sizing: border-box;}
+ body{
+  font-family: brush script MT ;
+  font-size : 16px;
+  color: #813861;
+  background-color: #e7dcff;
+  margin: 20px;
+  line-height: 1.4;
+
+ }
+ header{
+  background-color: #c39ec4;
+  color: rgb(124, 83, 119);
+  text-align: center;
+  padding: 1px 10px;
+
+ }
+ #site-title{margin: 0; font-size: 4px;}
+ .tagline{color: #e8c9a8;}
+ nav a{
+  color: rgb(132, 7, 72);
+  margin: 0 12px;
+  font-weight: italic;
+ }
+ nav  hover{color: #f80d0d}
+ main{
+  max-width: 800px;
+  padding: 20px;
+ }
+ footer{
+  background-color: #c39ec4;
+  color: rgb(138, 41, 88);
+  text-align: center;
+ }
+ footer a {color: #813861;}
