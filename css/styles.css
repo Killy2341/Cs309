@@ -1,7 +1,7 @@
 
  * {box-sizing: border-box;}
  body{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:  Geneva;
   font-size : 16px;
   color: #813861;
   background-color: #e7dcff;
@@ -12,7 +12,7 @@
  h4{
   color: rgb(131, 73, 116);
   font-weight: bold;
-  text-align: center;
+  text-align: left;
  }
  header{
   background-color: #c39ec4;
@@ -33,7 +33,17 @@
   max-width: 800px;
   padding: 20px;
  }
- 
+ form{
+  background-color: #ddc8f0;
+ }
+ button[type="submit"] {
+    background-color: #cfa5d7;
+    color: rgb(115, 65, 117);
+    border-color: #8a448c;
+    font-size: 13px;
+
+}
+
  footer{
   background-color: #c39ec4;
   color: rgb(138, 41, 88);
