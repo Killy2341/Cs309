@@ -3,9 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact me</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
+     <header>
+        <nav>
+            
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            
+        </nav>
+    </header>
+    <main>
+        <h3>connect with me</h3>
+        <p>fill in the form to let me know more about you</p>
+        <form action="/submit" method ="POST">
+            <label for="name">Name:</label>
+            <input type = "text" id="name" name="Name" required>
+            <br>
+            <label for ="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="age">Age:</label>
+            <input for="age" id="age" name="age" min="1" max="100">
+            <br>
+            <label for="date of birth">Date Of Birth</label>
+            <input type="date" id="birthdate" name="birthdate">
+            <br>
+            <!-- radio buttons -->
+            <h4>Your status:</h4>
+            <input type="radio" id="status" name="status" value="undergraduate">
+            <label for="status">undergrad</label>
+            <input type="radio" id="status" name="status" value="postgraduate">
+            <label for="status">postgrad</label>
+            <input type="radio" id="status" name="status" value="prof">
+            <label for="status">master</label>
+            <!-- checkbox -->
+            <h4>Your interests:</h4>
+            <input type="checkbox" id="books" name="books" value="reading">
+            <label for="frontend">Reading</labe>
+
+            <input type="checkbox" id="sport" name="sport" value="football">
+            <label for="backend">playing foot ball</label>
+            <br>
+            <input type="checkbox" id="graphic" name="design" value="art">
+            <label for="graphic">Graphic design</label>
+
+            <input type="checkbox" id="cs" name="cs" value="cs">
+            <label for="cs">coding</label>
+                <!-- dropdown menu -->
+            <h4>Your track:</h4>
+            <label for="track">Track menu</label>
+            <select id="track" name="track">
+                <option value ="Web">Web Development</option>
+                <option value="support">Technical Support</option>
+                <option value="software">Software Engineer</option>
+                <option value="ai">AI Engineer</option>
+                <option value="othre">Other</option>
+            </select>
+            <p><br></p>
+            <label for="msg">Message:</label>
+            <textarea id="msg" name="msg" rows="2" cols="20"></textarea>
+            <button type="submit">Send</button>
+            
+
+        </form>
+    </main>
+    <footer>
+        <h5>&copy; 2026 Sama Hossam.</h5>
+    </footer>
 </body>
 </html>
