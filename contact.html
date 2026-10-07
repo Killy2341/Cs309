@@ -20,33 +20,34 @@
         <h3>connect with me</h3>
         <p>fill in the form to let me know more about you</p>
         <form action="/submit" method ="POST">
+            <!--name-->
             <label for="name">Name:</label>
             <input type = "text" id="name" name="Name" required>
-            <br>
+            <br> <!--email-->
             <label for ="email">Email:</label>
             <input type="email" id="email" name="email" required>
-            <br>
+            <br> <!--age-->
             <label for="age">Age:</label>
-            <input for="age" id="age" name="age" min="1" max="100">
-            <br>
-            <label for="date of birth">Date Of Birth</label>
+            <input type="number" id="age" name="age" min="1" max="120">
+            <br> <!--date-->
+            <label for="birthdate">Date Of Birth</label>
             <input type="date" id="birthdate" name="birthdate">
             <br>
             <!-- radio buttons -->
             <h4>Your status:</h4>
-            <input type="radio" id="status" name="status" value="undergraduate">
-            <label for="status">undergrad</label>
-            <input type="radio" id="status" name="status" value="postgraduate">
-            <label for="status">postgrad</label>
-            <input type="radio" id="status" name="status" value="prof">
-            <label for="status">master</label>
+            <input type="radio" id="under" name="status" value="undergraduate">
+            <label for="under">undergrad</label>
+            <input type="radio" id="post" name="status" value="postgraduate">
+            <label for="post">postgrad</label>
+            <input type="radio" id="master" name="status" value="prof">
+            <label for="master">master</label>
             <!-- checkbox -->
             <h4>Your interests:</h4>
             <input type="checkbox" id="books" name="books" value="reading">
-            <label for="frontend">Reading</labe>
+            <label for="books">Reading</label>
 
             <input type="checkbox" id="sport" name="sport" value="football">
-            <label for="backend">playing foot ball</label>
+            <label for="sport">playing foot ball</label>
             <br>
             <input type="checkbox" id="graphic" name="design" value="art">
             <label for="graphic">Graphic design</label>
@@ -61,7 +62,7 @@
                 <option value="support">Technical Support</option>
                 <option value="software">Software Engineer</option>
                 <option value="ai">AI Engineer</option>
-                <option value="othre">Other</option>
+                <option value="Other">Other</option>
             </select>
             <p><br></p>
             <label for="msg">Message:</label>

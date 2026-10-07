@@ -21,12 +21,12 @@
   padding: 1px 10px;
 
  }
- #site-title{margin: 0; font-size: 4px;}
- .tagline{color: #e8c9a8;}
+ 
+ 
  nav a{
   color: rgb(132, 7, 72);
   margin: 0 12px;
-  font-weight: italic;
+  font-style: italic;
  }
  
  main{
